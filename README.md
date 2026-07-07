@@ -18,10 +18,10 @@ SETUP INSTRUCTION
 * *Note: Power the GSM module and motor using a separate external or solar power rail, sharing a common ground with the Arduino.*
 
 2. Configure
-* Insert an active SIM card into the GSM module with SMS bundle actvited.
+* Insert an active SIM card into the GSM module with SMS bundle activated.
 * Open the `.ino` firmware file in the Arduino IDE and update your recipient phone number:
 const String USER_PHONE_NUMBER = "+256XXXXXXXXX"; // Your phone number.
-* (Optional) Adjust the `EMPTY_HOPPER_DISTANCE` constant (default is `12.5` cm) to match your physical hopper depth.
+* (Optional) Adjust the `EMPTY_HOPPER_DISTANCE` constant (default is `12.5` cm) to match your physical hopper depth from top to bottom.
 
 3. Run
 * Connect your Arduino Uno to your PC via USB.
