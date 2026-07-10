@@ -36,11 +36,11 @@ FeedLevelState currentFeedState = NORMAL;
 FeedLevelState lastReportedState = NORMAL;
 
 // Feeding schedule for different fish types
-const int feedingTimesGrower[3] = {14, 15, 16};
+const int feedingTimesGrower[3] = {0, 8, 16};
 // Fixed array boundary to match 4 elements declared
 const int feedingTimesFingerling[4] = {0, 6, 12, 18};
 
-const int feedMinute= 5;
+const int feedMinute= 0;
 
 // Fish type selection
 enum FishType { GROWER, FINGERLING };
